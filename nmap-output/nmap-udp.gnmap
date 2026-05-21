@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Mon May 18 14:20:34 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sU --top-ports 100 -T4 -oA .\\nmap-output\\nmap-udp 192.168.31.87
+Host: 192.168.31.87 ()	Status: Up
+Host: 192.168.31.87 ()	Status: Up
+# Nmap done at Mon May 18 14:20:38 2026 -- 1 IP address (1 host up) scanned in 3.52 seconds

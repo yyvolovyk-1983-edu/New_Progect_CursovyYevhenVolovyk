@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Mon May 18 14:37:24 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV -sC -T4 -Pn -oA .\\nmap-output\\nmap-172-pn 192.168.31.172
+Host: 192.168.31.172 ()	Status: Up
+Host: 192.168.31.172 ()	Ports: 62078/open/tcp//tcpwrapped///
+# Nmap done at Mon May 18 14:44:26 2026 -- 1 IP address (1 host up) scanned in 421.88 seconds

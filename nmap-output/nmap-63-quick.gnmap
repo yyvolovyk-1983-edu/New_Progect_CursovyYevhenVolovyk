@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Mon May 18 14:36:38 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV -sC -O -T4 -oA .\\nmap-output\\nmap-63-quick 192.168.31.63
+Host: 192.168.31.63 ()	Status: Up
+Host: 192.168.31.63 ()	Ports: 49152/open/tcp//tcpwrapped///, 62078/open/tcp//iphone-sync?///	Ignored State: closed (998)	Seq Index: 262	IP ID Seq: All zeros
+# Nmap done at Mon May 18 14:37:20 2026 -- 1 IP address (1 host up) scanned in 42.26 seconds

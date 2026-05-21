@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ScheduledTask *)",
+      "PowerShell(Test-Path *)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(Get-Service *)",
+      "PowerShell(sc.exe query ollama 2>&1)",
+      "PowerShell(Unregister-ScheduledTask *)",
+      "PowerShell(schtasks *)",
+      "PowerShell(Remove-Item *)",
+      "PowerShell(Start-MpScan *)",
+      "PowerShell(Get-MpComputerStatus *)",
+      "Bash(powershell *)",
+      "PowerShell(Get-Process *)",
+      "PowerShell(Get-CimInstance *)",
+      "PowerShell(Get-WinEvent -LogName Security -MaxEvents 30 -ErrorAction SilentlyContinue 2>&1 | Where-Object {$_.Id -in @\\(4624,4625,4648,4720,4726\\)} | Select-Object TimeCreated, Id, @{N='User';E={$_.Properties[5].Value}}, @{N='LogonType';E={$_.Properties[8].Value}} | Format-Table -AutoSize)",
+      "Bash(claude mcp *)",
+      "PowerShell(claude mcp *)",
+      "PowerShell(Get-Job *)",
+      "PowerShell(pwsh -NoProfile -File \"C:\\\\Users\\\\User\\\\.claude\\\\hooks\\\\_tools\\\\convert-to-utf8-bom.ps1\" 2>&1 | Select-String \"OK|SKIP|FAIL\" | Select-Object -Last 4; Write-Host \"\"; pwsh -NoProfile -File \"C:\\\\Users\\\\User\\\\.claude\\\\hooks\\\\boot-health-check.ps1\" -Verbose)",
+      "Bash(mkdir -p ./nmap-output)",
+      "Bash(nmap --version)"
+    ]
+  }
+}

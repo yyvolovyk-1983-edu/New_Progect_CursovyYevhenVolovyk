@@ -1,0 +1,2 @@
+# Nmap 7.80 scan initiated Mon May 18 14:36:40 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV -sC -O -T4 -oA .\\nmap-output\\nmap-172-quick 192.168.31.172
+# Nmap done at Mon May 18 14:36:41 2026 -- 1 IP address (0 hosts up) scanned in 1.81 seconds

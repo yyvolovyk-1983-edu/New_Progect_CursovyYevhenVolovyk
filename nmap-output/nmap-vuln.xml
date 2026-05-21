@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Mon May 18 14:22:54 2026 as: &quot;C:\\Program Files (x86)\\Nmap\\nmap.exe&quot; -p 80,443,445,135,3389,22,23,8080,8443,21 -&#45;script=vuln -Pn -T4 -oA .\\nmap-output\\nmap-vuln 192.168.31.87 -->
+<nmaprun scanner="nmap" args="&quot;C:\\Program Files (x86)\\Nmap\\nmap.exe&quot; -p 80,443,445,135,3389,22,23,8080,8443,21 -&#45;script=vuln -Pn -T4 -oA .\\nmap-output\\nmap-vuln 192.168.31.87" start="1779103374" startstr="Mon May 18 14:22:54 2026" version="7.80" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="10" services="21-23,80,135,443,445,3389,8080,8443"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1779103386" endtime="1779103388"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.31.87" addrtype="ipv4"/>
+<address addr="9C:6B:00:C4:CF:52" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="22"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="23"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="telnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="135"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3389"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ms-wbt-server" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8080"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="http-proxy" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8443"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="https-alt" method="table" conf="3"/></port>
+</ports>
+<times srtt="1000" rttvar="5000" to="100000"/>
+</host>
+<runstats><finished time="1779103388" timestr="Mon May 18 14:23:08 2026" elapsed="14.10" summary="Nmap done at Mon May 18 14:23:08 2026; 1 IP address (1 host up) scanned in 14.10 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

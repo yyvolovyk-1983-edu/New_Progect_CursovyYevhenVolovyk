@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Mon May 18 14:20:21 2026 as: &quot;C:\\Program Files (x86)\\Nmap\\nmap.exe&quot; -p 22,23,80,135,139,443,445,3389,5985,5986,8080,8443,1433,3306,5432,21,25,53,110,143,993,995,1080,4444,4899,5900 -sV -sC -T4 -&#45;open -oA .\\nmap-output\\nmap-targeted 192.168.31.87 -->
+<nmaprun scanner="nmap" args="&quot;C:\\Program Files (x86)\\Nmap\\nmap.exe&quot; -p 22,23,80,135,139,443,445,3389,5985,5986,8080,8443,1433,3306,5432,21,25,53,110,143,993,995,1080,4444,4899,5900 -sV -sC -T4 -&#45;open -oA .\\nmap-output\\nmap-targeted 192.168.31.87" start="1779103221" startstr="Mon May 18 14:20:21 2026" version="7.80" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="26" services="21-23,25,53,80,110,135,139,143,443,445,993,995,1080,1433,3306,3389,4444,4899,5432,5900,5985-5986,8080,8443"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<runstats><finished time="1779103224" timestr="Mon May 18 14:20:24 2026" elapsed="2.52" summary="Nmap done at Mon May 18 14:20:24 2026; 1 IP address (1 host up) scanned in 2.52 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Mon May 18 14:11:44 2026 as: &quot;C:\\Program Files (x86)\\Nmap\\nmap.exe&quot; -p- -T4 -oA .\\nmap-output\\nmap-portscan 192.168.31.87 -->
+<nmaprun scanner="nmap" args="&quot;C:\\Program Files (x86)\\Nmap\\nmap.exe&quot; -p- -T4 -oA .\\nmap-output\\nmap-portscan 192.168.31.87" start="1779102704" startstr="Mon May 18 14:11:44 2026" version="7.80" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<taskprogress task="SYN Stealth Scan" time="1779102916" percent="14.66" remaining="1229" etc="1779104145"/>
+<taskprogress task="SYN Stealth Scan" time="1779103312" percent="42.07" remaining="836" etc="1779104148"/>
+<taskprogress task="SYN Stealth Scan" time="1779103661" percent="51.79" remaining="890" etc="1779104551"/>
+<taskprogress task="SYN Stealth Scan" time="1779103679" percent="53.03" remaining="863" etc="1779104542"/>
+<taskprogress task="SYN Stealth Scan" time="1779104131" percent="84.52" remaining="262" etc="1779104392"/>
+<taskprogress task="SYN Stealth Scan" time="1779104169" percent="87.15" remaining="216" etc="1779104385"/>
+<taskprogress task="SYN Stealth Scan" time="1779104169" percent="87.15" remaining="216" etc="1779104385"/>
+<host starttime="1779102705" endtime="1779104354"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.31.87" addrtype="ipv4"/>
+<address addr="9C:6B:00:C4:CF:52" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65535">
+<extrareasons reason="no-responses" count="65535"/>
+</extraports>
+</ports>
+<times srtt="2000" rttvar="5000" to="100000"/>
+</host>
+<runstats><finished time="1779104354" timestr="Mon May 18 14:39:14 2026" elapsed="1649.23" summary="Nmap done at Mon May 18 14:39:14 2026; 1 IP address (1 host up) scanned in 1649.23 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

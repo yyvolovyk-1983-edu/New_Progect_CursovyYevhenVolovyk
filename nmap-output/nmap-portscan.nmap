@@ -1,0 +1,7 @@
+# Nmap 7.80 scan initiated Mon May 18 14:11:44 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -p- -T4 -oA .\\nmap-output\\nmap-portscan 192.168.31.87
+Nmap scan report for 192.168.31.87
+Host is up (0.0020s latency).
+All 65535 scanned ports on 192.168.31.87 are filtered
+MAC Address: 9C:6B:00:C4:CF:52 (Unknown)
+
+# Nmap done at Mon May 18 14:39:14 2026 -- 1 IP address (1 host up) scanned in 1649.23 seconds
